@@ -1,0 +1,71 @@
+<!--
+  Generated template for the PokemonDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Description</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-spinner *ngIf="showLoader"></ion-spinner>
+
+  <!-- Page loaded -->
+  <ion-card class="card" *ngIf="!showLoader">
+    <ion-grid>
+      <ion-row>
+        <ion-col col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6>
+          <img class="imageSize" src="/assets/img/official-artwork/{{ id }}.png">
+          <h2 class="text-center">No. {{ id | number : '3.0-0' }}</h2>
+        </ion-col>
+        <ion-col col-12 col-md-2 col-lg-2 col-xl-2></ion-col>
+        <ion-col col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 class="padding-top">
+          <ion-row class="margin-bottom">
+            <ion-col col-12>
+              <h1>
+                {{ utilService.getFrenchEntry(pokemonSpecies.names).name }} 
+              </h1>
+            </ion-col>
+          </ion-row>
+          <ion-row class="margin-bottom">
+            <ion-col col-12>
+              <ion-chip>
+                <ion-avatar>
+                  <img src="/assets/icon/height.png">
+                </ion-avatar>
+                <ion-label>{{ pokemon.height / 10 | number : '1.1-1' }} kg</ion-label>
+              </ion-chip>
+            </ion-col>
+          </ion-row>
+          <ion-row class="margin-bottom">
+            <ion-col col-12>
+              <ion-chip>
+                <ion-avatar>
+                  <img src="/assets/icon/weight.png">
+                </ion-avatar>
+                <ion-label>{{ pokemon.weight / 10 | number : '1.1-1' }} kg</ion-label>
+              </ion-chip>
+            </ion-col>
+          </ion-row>
+          <ion-row class="margin-bottom">
+            <ion-col col-12>
+              <ion-chip *ngFor="let type of types" color="{{type.name}}" style="margin-right: 10px;">
+                <ion-label>{{ utilService.getFrenchEntry(type.names).name }}</ion-label>
+              </ion-chip>
+            </ion-col>
+          </ion-row>
+          <!-- <div *ngFor="let type of types">{{ utilService.getFrenchEntry(type.names).name }}</div> -->
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-12>
+          <p>{{ utilService.getFrenchEntry(pokemonSpecies.flavor_text_entries).flavor_text }}</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card> 
+</ion-content>

@@ -1,0 +1,45 @@
+page-pokemon-detail {
+  
+}
+
+@media screen and (max-height : 1080px) and ( min-width : 500px) {
+    .padding-top{
+        padding-top: 80px;
+    }
+}
+
+.card {
+  max-width: 800px;
+  margin: auto;
+}
+
+.imageSize {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+
+.icon {
+  display: inline-block;
+  max-height: 30px;
+  width: auto;
+  height: auto;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+ion-spinner {
+  display: flex;
+  margin: auto;
+  margin-top: 15vh;
+  stroke: #444;
+  fill: #222;
+  zoom: 2;
+}
+
+.text-center {
+  text-align: center;
+}

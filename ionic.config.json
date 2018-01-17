@@ -1,0 +1,8 @@
+{
+  "name": "pokedex-ionic",
+  "app_id": "fff95582",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
