@@ -16,4 +16,4 @@ It started as a school project using Angular first, then Ionic. The version here
 
 # License
 
-[Icon](https://www.flaticon.com/packs/pokemon-go) made by [Roundicons Freebies](https://www.flaticon.com/authors/roundicons-freebies) from [www.flaticon.com](https://www.flaticon.com/)
+[Icons](https://www.flaticon.com/packs/pokemon-go) made by [Roundicons Freebies](https://www.flaticon.com/authors/roundicons-freebies) from [www.flaticon.com](https://www.flaticon.com/)

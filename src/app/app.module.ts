@@ -4,8 +4,8 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
-import { HTTP_INTERCEPTORS, HttpClientModule } from "@angular/common/http";
-import { CachingInterceptor } from "./caching-interceptor.service";
+import { HttpClientModule } from "@angular/common/http";
+// import { CachingInterceptor } from "./caching-interceptor.service";
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -43,11 +43,6 @@ import { PokemonDetailPage } from "../pages/pokemon-detail/pokemon-detail";
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    {
-      provide: HTTP_INTERCEPTORS,
-      useClass: CachingInterceptor,
-      multi: true,
-    }
   ]
 })
 export class AppModule {}
