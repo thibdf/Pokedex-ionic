@@ -4,8 +4,8 @@ It started as a school project using Angular first, then Ionic. The version here
 
 # Dependencies
 
-- NodeJS (https://nodejs.org/en/)
-- Ionic Framework (https://ionicframework.com/)
+- [NodeJS](https://nodejs.org/en/)
+- [Ionic Framework](https://ionicframework.com/)
 
 # Installation
 
@@ -13,3 +13,7 @@ It started as a school project using Angular first, then Ionic. The version here
 2. $ npm install -g cordova ionic (If Ionic isn't installed)
 3. $ ionic serve
 4. Gotta catch 'em all!
+
+# License
+
+[Icon](https://www.flaticon.com/packs/pokemon-go) made by [Roundicons Freebies](https://www.flaticon.com/authors/roundicons-freebies) from [www.flaticon.com](https://www.flaticon.com/)
