@@ -1,4 +1,4 @@
-export const translations: Map<string, string> = new Map([
+export const translations_fr: Map<string, string> = new Map([
   [
     'bulbasaur', 'bulbizarre'
   ],
@@ -300,7 +300,7 @@ export const translations: Map<string, string> = new Map([
     'voltorb', 'voltorbe'
   ],
   [
-    'electrode', 'électrode'
+    'electrode', 'electrode'
   ],
   [
     'exeggcute', 'noeunoeuf'
@@ -372,7 +372,7 @@ export const translations: Map<string, string> = new Map([
     'jynx', 'lippoutou'
   ],
   [
-    'electabuzz', 'élektek'
+    'electabuzz', 'elektek'
   ],
   [
     'magmar', 'magmar'
@@ -396,7 +396,7 @@ export const translations: Map<string, string> = new Map([
     'ditto', 'métamorph'
   ],
   [
-    'eevee', 'évoli'
+    'eevee', 'evoli'
   ],
   [
     'vaporeon', 'aquali'
@@ -432,7 +432,7 @@ export const translations: Map<string, string> = new Map([
     'articuno', 'artikodin'
   ],
   [
-    'zapdos', 'électhor'
+    'zapdos', 'electhor'
   ],
   [
     'moltres', 'sulfura'

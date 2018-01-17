@@ -16,4 +16,10 @@ export class UtilService {
       (flavorTextEntry: any) => flavorTextEntry.language.name === 'fr'
     );
   }
+
+  getLocalizedEntry(localizedEntries: any[], language: any): any {
+    return localizedEntries.find(
+      (flavorTextEntry: any) => flavorTextEntry.language.name === language
+    );
+  }
 }

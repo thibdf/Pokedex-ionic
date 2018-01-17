@@ -10,6 +10,8 @@ import { TypeService } from '../../app/core/type.service';
 import { UtilService } from '../../app/core/util.service';
 import { LoadingController } from 'ionic-angular/components/loading/loading-controller';
 
+import { LanguageService } from "../../app/core/language.service";
+
 /**
  * Generated class for the PokemonDetailPage page.
  *
@@ -23,29 +25,28 @@ import { LoadingController } from 'ionic-angular/components/loading/loading-cont
   templateUrl: 'pokemon-detail.html',
 })
 export class PokemonDetailPage {
-  @Input() id = 1;
+  id = 1;
   pokemon: any;
   pokemonSpecies: any;
   showLoader: boolean;
   types: any;
+  language: any;
 
   constructor(public navCtrl: NavController, 
               public navParams: NavParams,
               private pokemonService: PokemonService,
               private typeService: TypeService,
               public utilService: UtilService,
-              private loadingCtrl: LoadingController) {
+              private loadingCtrl: LoadingController,
+              private languageService: LanguageService) {
+    this.language = this.languageService.language;
     this.id = navParams.get("pokemonId"); // Get current pokemon id
-    console.log("id: " + this.id);
-    // if (!this.id) {
-    //   this.id = 1;
-    // }
-
     this.initData();
-    // this.getData();
   }
   
   ionViewDidLoad() {
+    
+    console.log("id: " + this.id);
     if (!this.id) {
       this.id = 1;
     }

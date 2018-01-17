@@ -21,7 +21,6 @@ import { PokemonDetailPage } from "../pokemon-detail/pokemon-detail";
 export class PokemonListPage {
   pokemons: any[];
   searchValue: string;
-  @Output() idUpdated = new EventEmitter();
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private pokemonService: PokemonService) {
   }
@@ -30,15 +29,11 @@ export class PokemonListPage {
     console.log('ionViewDidLoad PokemonListPage');
     this.getAllPokemons().subscribe();
   }
-
+  
   filterPokemon(pokemon: any): boolean {
     return pokemon.id.toString().includes(this.searchValue) || pokemon.name.includes(this.searchValue.toLowerCase());
   }
-
-  selectPokemon(id: number): void {
-    this.idUpdated.emit(id);
-  }
-
+  
   private getAllPokemons(): Observable<any> {
     return this.pokemonService.getAllPokemons().pipe(
       map((pokemons: any) => this.pokemons = pokemons)

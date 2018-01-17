@@ -27,7 +27,7 @@
           <ion-row class="margin-bottom">
             <ion-col col-12>
               <h1>
-                {{ utilService.getFrenchEntry(pokemonSpecies.names).name }} 
+                {{ utilService.getLocalizedEntry(pokemonSpecies.names, language).name }} 
               </h1>
             </ion-col>
           </ion-row>
@@ -37,7 +37,7 @@
                 <ion-avatar>
                   <img src="/assets/icon/height.png">
                 </ion-avatar>
-                <ion-label>{{ pokemon.height / 10 | number : '1.1-1' }} kg</ion-label>
+                <ion-label>{{ pokemon.height / 10 | number : '1.1-1' }} m</ion-label>
               </ion-chip>
             </ion-col>
           </ion-row>
@@ -54,16 +54,15 @@
           <ion-row class="margin-bottom">
             <ion-col col-12>
               <ion-chip *ngFor="let type of types" color="{{type.name}}" style="margin-right: 10px;">
-                <ion-label>{{ utilService.getFrenchEntry(type.names).name }}</ion-label>
+                <ion-label>{{ utilService.getLocalizedEntry(type.names, language).name }}</ion-label>
               </ion-chip>
             </ion-col>
           </ion-row>
-          <!-- <div *ngFor="let type of types">{{ utilService.getFrenchEntry(type.names).name }}</div> -->
         </ion-col>
       </ion-row>
       <ion-row>
         <ion-col col-12>
-          <p>{{ utilService.getFrenchEntry(pokemonSpecies.flavor_text_entries).flavor_text }}</p>
+          <p>{{ utilService.getLocalizedEntry(pokemonSpecies.flavor_text_entries, language).flavor_text }}</p>
         </ion-col>
       </ion-row>
     </ion-grid>
