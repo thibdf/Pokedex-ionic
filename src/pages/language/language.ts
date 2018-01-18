@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { FormGroup, FormControl } from '@angular/forms';
 
 import { LanguageService } from "../../app/core/language.service";
 

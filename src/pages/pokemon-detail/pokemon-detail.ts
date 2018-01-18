@@ -1,9 +1,8 @@
-import { Component, Input, SimpleChanges } from '@angular/core';
+import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Observable } from 'rxjs/Observable';
 import { forkJoin } from 'rxjs/observable/forkJoin';
 import { map, mergeMap } from 'rxjs/operators';
-import { LoadingController } from 'ionic-angular/components/loading/loading-controller';
 
 import { PokemonService } from '../../app/core/pokemon.service';
 import { TypeService } from '../../app/core/type.service';
@@ -24,7 +23,7 @@ export class PokemonDetailPage {
   types: any;
   language: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private pokemonService: PokemonService, private typeService: TypeService, public utilService: UtilService, private loadingCtrl: LoadingController, private languageService: LanguageService) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private pokemonService: PokemonService, private typeService: TypeService, public utilService: UtilService, private languageService: LanguageService) {
 
     this.language = this.languageService.language;
     this.id = navParams.get("pokemonId"); // Get current pokemon id

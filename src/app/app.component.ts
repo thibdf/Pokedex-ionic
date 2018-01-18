@@ -5,7 +5,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { ViewChild } from "@angular/core";
 import { MenuController } from "ionic-angular";
 
-import { TranslateService } from '@ngx-translate/core';
 import { LanguageService } from "../app/core/language.service";
 
 import { PokedexPage } from "../pages/pokedex/pokedex";
