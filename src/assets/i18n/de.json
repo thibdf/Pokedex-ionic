@@ -1,14 +1,16 @@
 {
-    "MENU": "German",
+    "MENU": "Menü",
     "HOME": "Home",
-    "LIST": "Pokemon list",
+    "LIST": "Pokemon Liste",
     "MUSIC": "Theme song",
-    "LANGUAGE": "Language",
+    "LANGUAGE": "Sprache",
+    "ABOUT": "App Info",
     
-    "LANGUAGE_HEADER": "Select language",
-    "LANGUAGE_SUBMIT": "Submit",
+    "LANGUAGE_HEADER": "Sprache wählen",
+    "LANGUAGE_SUBMIT": "Abschicken",
     
-    "DESCRIPTION": "Description",
+    "DESCRIPTION": "Beschreibung",
 
-    "GOTOPOKEDEX": "Go to the Pokedex"
+    "GOTOPOKEDEX": "Pokedex"
+
 }

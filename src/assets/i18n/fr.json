@@ -4,6 +4,7 @@
     "LIST": "Liste de Pokemons",
     "MUSIC": "Générique",
     "LANGUAGE": "Langue",
+    "ABOUT": "A propos",
     
     "LANGUAGE_HEADER": "Sélectionner une langue",
     "LANGUAGE_SUBMIT": "Valider",
@@ -11,4 +12,5 @@
     "DESCRIPTION": "Description",
     
     "GOTOPOKEDEX": "Accéder au Pokédex"
+
 }

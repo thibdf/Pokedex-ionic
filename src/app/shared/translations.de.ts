@@ -1,72 +1,72 @@
 export const translations_de: Map<string, string> = new Map([
   [
-    'bulbasaur', 'de'
+    'bulbasaur', 'bisasam'
   ],
   [
-    'ivysaur', 'herbizarre'
+    'ivysaur', 'bisaknosp'
   ],
   [
-    'venusaur', 'florizarre'
+    'venusaur', 'bisaflor'
   ],
   [
-    'charmander', 'salamèche'
+    'charmander', 'glumanda'
   ],
   [
-    'charmeleon', 'reptincel'
+    'charmeleon', 'glutexo'
   ],
   [
-    'charizard', 'dracaufeu'
+    'charizard', 'glurak'
   ],
   [
-    'squirtle', 'carapuce'
+    'squirtle', 'schiggy'
   ],
   [
-    'wartortle', 'carabaffe'
+    'wartortle', 'schillok'
   ],
   [
-    'blastoise', 'tortank'
+    'blastoise', 'turtok'
   ],
   [
-    'caterpie', 'chenipan'
+    'caterpie', 'raupy'
   ],
   [
-    'metapod', 'chrysacier'
+    'metapod', 'safcon'
   ],
   [
-    'butterfree', 'papilusion'
+    'butterfree', 'smettbo'
   ],
   [
-    'weedle', 'aspicot'
+    'weedle', 'hornliu'
   ],
   [
-    'kakuna', 'coconfort'
+    'kakuna', 'kokuna'
   ],
   [
-    'beedrill', 'dardargnan'
+    'beedrill', 'bibor'
   ],
   [
-    'pidgey', 'roucool'
+    'pidgey', 'taubsi'
   ],
   [
-    'pidgeotto', 'roucoups'
+    'pidgeotto', 'tauboga'
   ],
   [
-    'pidgeot', 'roucarnage'
+    'pidgeot', 'tauboss'
   ],
   [
-    'rattata', 'rattata'
+    'rattata', 'rattfratz'
   ],
   [
-    'raticate', 'rattatac'
+    'raticate', 'rattikarl'
   ],
   [
-    'spearow', 'piafabec'
+    'spearow', 'habitak'
   ],
   [
-    'fearow', 'rapasdepic'
+    'fearow', 'ibitak'
   ],
   [
-    'ekans', 'abo'
+    'ekans', 'rettan'
   ],
   [
     'arbok', 'arbok'
@@ -78,10 +78,10 @@ export const translations_de: Map<string, string> = new Map([
     'raichu', 'raichu'
   ],
   [
-    'sandshrew', 'sabelette'
+    'sandshrew', 'sandan'
   ],
   [
-    'sandslash', 'sablaireau'
+    'sandslash', 'sandamer'
   ],
   [
     'nidoran-f', 'nidoran♀'
@@ -102,88 +102,88 @@ export const translations_de: Map<string, string> = new Map([
     'nidoking', 'nidoking'
   ],
   [
-    'clefairy', 'mélofée'
+    'clefairy', 'piepi'
   ],
   [
-    'clefable', 'mélodelfe'
+    'clefable', 'pixi'
   ],
   [
-    'vulpix', 'goupix'
+    'vulpix', 'vulpix'
   ],
   [
-    'ninetales', 'feunard'
+    'ninetales', 'vulnona'
   ],
   [
-    'jigglypuff', 'rondoudou'
+    'jigglypuff', 'pummeluff'
   ],
   [
-    'wigglytuff', 'grodoudou'
+    'wigglytuff', 'knuddeluff'
   ],
   [
-    'zubat', 'nosferapti'
+    'zubat', 'zubat'
   ],
   [
-    'golbat', 'nosferalto'
+    'golbat', 'golbat'
   ],
   [
-    'oddish', 'mystherbe'
+    'oddish', 'myrapla'
   ],
   [
-    'gloom', 'ortide'
+    'gloom', 'duflor'
   ],
   [
-    'vileplume', 'rafflesia'
+    'vileplume', 'giflor'
   ],
   [
     'paras', 'paras'
   ],
   [
-    'parasect', 'parasect'
+    'parasect', 'parasek'
   ],
   [
-    'venonat', 'mimitoss'
+    'venonat', 'bluzuk'
   ],
   [
-    'venomoth', 'aéromite'
+    'venomoth', 'omot'
   ],
   [
-    'diglett', 'taupiqueur'
+    'diglett', 'digda'
   ],
   [
-    'dugtrio', 'triopikeur'
+    'dugtrio', 'digdri'
   ],
   [
-    'meowth', 'miaouss'
+    'meowth', 'mauzi'
   ],
   [
-    'persian', 'persian'
+    'persian', 'snobilikat'
   ],
   [
-    'psyduck', 'psykokwak'
+    'psyduck', 'enton'
   ],
   [
-    'golduck', 'akwakwak'
+    'golduck', 'entoron'
   ],
   [
-    'mankey', 'férosinge'
+    'mankey', 'menki'
   ],
   [
-    'primeape', 'colossinge'
+    'primeape', 'rasaff'
   ],
   [
-    'growlithe', 'caninos'
+    'growlithe', 'fukano'
   ],
   [
-    'arcanine', 'arcanin'
+    'arcanine', 'arkani'
   ],
   [
-    'poliwag', 'ptitard'
+    'poliwag', 'quapsel'
   ],
   [
-    'poliwhirl', 'têtarte'
+    'poliwhirl', 'quaputzi'
   ],
   [
-    'poliwrath', 'tartard'
+    'poliwrath', 'quappo'
   ],
   [
     'abra', 'abra'
@@ -192,184 +192,184 @@ export const translations_de: Map<string, string> = new Map([
     'kadabra', 'kadabra'
   ],
   [
-    'alakazam', 'alakazam'
+    'alakazam', 'simsala'
   ],
   [
-    'machop', 'machoc'
+    'machop', 'machollo'
   ],
   [
-    'machoke', 'machopeur'
+    'machoke', 'maschock'
   ],
   [
-    'machamp', 'mackogneur'
+    'machamp', 'machomei'
   ],
   [
-    'bellsprout', 'chétiflor'
+    'bellsprout', 'knofensa'
   ],
   [
-    'weepinbell', 'boustiflor'
+    'weepinbell', 'ultrigaria'
   ],
   [
-    'victreebel', 'empiflor'
+    'victreebel', 'sarzenia'
   ],
   [
-    'tentacool', 'tentacool'
+    'tentacool', 'tentacha'
   ],
   [
-    'tentacruel', 'tentacruel'
+    'tentacruel', 'tentoxa'
   ],
   [
-    'geodude', 'racaillou'
+    'geodude', 'kleinstein'
   ],
   [
-    'graveler', 'gravalanch'
+    'graveler', 'georok'
   ],
   [
-    'golem', 'grolen'
+    'golem', 'geowaz'
   ],
   [
-    'ponyta', 'ponyta'
+    'ponyta', 'ponita'
   ],
   [
-    'rapidash', 'galopa'
+    'rapidash', 'gallopa'
   ],
   [
-    'slowpoke', 'ramoloss'
+    'slowpoke', 'flegmon'
   ],
   [
-    'slowbro', 'flagadoss'
+    'slowbro', 'lahmus'
   ],
   [
-    'magnemite', 'magnéti'
+    'magnemite', 'magnetilo'
   ],
   [
-    'magneton', 'magnéton'
+    'magneton', 'magneton'
   ],
   [
-    'farfetchd', 'canarticho'
+    'farfetchd', 'porenta'
   ],
   [
-    'doduo', 'doduo'
+    'doduo', 'dodu'
   ],
   [
-    'dodrio', 'dodrio'
+    'dodrio', 'dodri'
   ],
   [
-    'seel', 'otaria'
+    'seel', 'jurob'
   ],
   [
-    'dewgong', 'lamantine'
+    'dewgong', 'jugong'
   ],
   [
-    'grimer', 'tadmorv'
+    'grimer', 'sleima'
   ],
   [
-    'muk', 'grotadmorv'
+    'muk', 'sleimok'
   ],
   [
-    'shellder', 'kokiyas'
+    'shellder', 'muschas'
   ],
   [
-    'cloyster', 'crustabri'
+    'cloyster', 'austos'
   ],
   [
-    'gastly', 'fantominus'
+    'gastly', 'nebulak'
   ],
   [
-    'haunter', 'spectrum'
+    'haunter', 'alpollo'
   ],
   [
-    'gengar', 'ectoplasma'
+    'gengar', 'gengar'
   ],
   [
     'onix', 'onix'
   ],
   [
-    'drowzee', 'soporifik'
+    'drowzee', 'traumato'
   ],
   [
-    'hypno', 'hypnomade'
+    'hypno', 'hypno'
   ],
   [
     'krabby', 'krabby'
   ],
   [
-    'kingler', 'krabboss'
+    'kingler', 'kingler'
   ],
   [
-    'voltorb', 'voltorbe'
+    'voltorb', 'voltobal'
   ],
   [
-    'electrode', 'electrode'
+    'electrode', 'lektrobal'
   ],
   [
-    'exeggcute', 'noeunoeuf'
+    'exeggcute', 'owei'
   ],
   [
-    'exeggutor', 'noadkoko'
+    'exeggutor', 'kokowei'
   ],
   [
-    'cubone', 'osselait'
+    'cubone', 'tragosso'
   ],
   [
-    'marowak', 'ossatueur'
+    'marowak', 'knogga'
   ],
   [
     'hitmonlee', 'kicklee'
   ],
   [
-    'hitmonchan', 'tygnon'
+    'hitmonchan', 'nockchan'
   ],
   [
-    'lickitung', 'excelangue'
+    'lickitung', 'schlurp'
   ],
   [
-    'koffing', 'smogo'
+    'koffing', 'smogon'
   ],
   [
-    'weezing', 'smogogo'
+    'weezing', 'smogmog'
   ],
   [
-    'rhyhorn', 'rhinocorne'
+    'rhyhorn', 'rihorn'
   ],
   [
-    'rhydon', 'rhinoféros'
+    'rhydon', 'rizeros'
   ],
   [
-    'chansey', 'leveinard'
+    'chansey', 'chaneira'
   ],
   [
-    'tangela', 'saquedeneu'
+    'tangela', 'tangela'
   ],
   [
-    'kangaskhan', 'kangourex'
+    'kangaskhan', 'sangama'
   ],
   [
-    'horsea', 'hypotrempe'
+    'horsea', 'seeper'
   ],
   [
-    'seadra', 'hypocéan'
+    'seadra', 'seemon'
   ],
   [
-    'goldeen', 'poissirène'
+    'goldeen', 'goldini'
   ],
   [
-    'seaking', 'poissoroy'
+    'seaking', 'golking'
   ],
   [
-    'staryu', 'stari'
+    'staryu', 'sterndu'
   ],
   [
-    'starmie', 'staross'
+    'starmie', 'starmie'
   ],
   [
-    'mr-mime', 'm. mime'
+    'mr-mime', 'pantimos'
   ],
   [
-    'scyther', 'insécateur'
+    'scyther', 'sichlor'
   ],
   [
-    'jynx', 'lippoutou'
+    'jynx', 'rossana'
   ],
   [
     'electabuzz', 'elektek'
@@ -378,43 +378,43 @@ export const translations_de: Map<string, string> = new Map([
     'magmar', 'magmar'
   ],
   [
-    'pinsir', 'scarabrute'
+    'pinsir', 'pinsir'
   ],
   [
     'tauros', 'tauros'
   ],
   [
-    'magikarp', 'magicarpe'
+    'magikarp', 'karpador'
   ],
   [
-    'gyarados', 'léviator'
+    'gyarados', 'garados'
   ],
   [
-    'lapras', 'lokhlass'
+    'lapras', 'lapras'
   ],
   [
-    'ditto', 'métamorph'
+    'ditto', 'ditto'
   ],
   [
     'eevee', 'evoli'
   ],
   [
-    'vaporeon', 'aquali'
+    'vaporeon', 'aquana'
   ],
   [
-    'jolteon', 'voltali'
+    'jolteon', 'blitza'
   ],
   [
-    'flareon', 'pyroli'
+    'flareon', 'flamara'
   ],
   [
     'porygon', 'porygon'
   ],
   [
-    'omanyte', 'amonita'
+    'omanyte', 'amonitas'
   ],
   [
-    'omastar', 'amonistar'
+    'omastar', 'amoroso'
   ],
   [
     'kabuto', 'kabuto'
@@ -423,28 +423,28 @@ export const translations_de: Map<string, string> = new Map([
     'kabutops', 'kabutops'
   ],
   [
-    'aerodactyl', 'ptéra'
+    'aerodactyl', 'aerodactyl'
   ],
   [
-    'snorlax', 'ronflex'
+    'snorlax', 'relaxo'
   ],
   [
-    'articuno', 'artikodin'
+    'articuno', 'arktos'
   ],
   [
-    'zapdos', 'electhor'
+    'zapdos', 'zapdos'
   ],
   [
-    'moltres', 'sulfura'
+    'moltres', 'lavados'
   ],
   [
-    'dratini', 'minidraco'
+    'dratini', 'dratini'
   ],
   [
-    'dragonair', 'draco'
+    'dragonair', 'dragonir'
   ],
   [
-    'dragonite', 'dracolosse'
+    'dragonite', 'dragoran'
   ],
   [
     'mewtwo', 'mewtwo'

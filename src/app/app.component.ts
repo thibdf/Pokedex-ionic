@@ -11,6 +11,7 @@ import { LanguageService } from "../app/core/language.service";
 import { PokedexPage } from "../pages/pokedex/pokedex";
 import { PokemonListPage } from "../pages/pokemon-list/pokemon-list";
 import { LanguagePage } from "../pages/language/language";
+import { AboutPage } from '../pages/about/about';
 
 
 @Component({
@@ -21,7 +22,7 @@ export class MyApp {
 
   rootPage:any = PokedexPage;
 
-  pages: Array<{ title: string, component: any }>
+  pages: Array<{ title: string, icon: string, component: any }>
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, public menuCtrl: MenuController, languageService: LanguageService) {
  
@@ -35,9 +36,10 @@ export class MyApp {
 
     // List of pages in the menu
     this.pages = [
-      { title: 'HOME', component: PokedexPage },
-      { title: 'LIST', component: PokemonListPage },
-      { title: 'LANGUAGE', component: LanguagePage }
+      { title: 'HOME', icon: 'home', component: PokedexPage },
+      { title: 'LIST', icon: 'list-box', component: PokemonListPage },
+      { title: 'LANGUAGE', icon: 'globe', component: LanguagePage },
+      { title: 'ABOUT', icon: 'information-circle', component: AboutPage }
     ];
     
   }

@@ -15,6 +15,7 @@ import { PokedexPage } from "../pages/pokedex/pokedex";
 import { PokemonListPage } from "../pages/pokemon-list/pokemon-list";
 import { PokemonDetailPage } from "../pages/pokemon-detail/pokemon-detail";
 import { LanguagePage } from "../pages/language/language";
+import { AboutPage } from "../pages/about/about";
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -31,7 +32,8 @@ export function createTranslateLoader(http: HttpClient) {
     PokedexPage,
     PokemonListPage,
     PokemonDetailPage,
-    LanguagePage
+    LanguagePage,
+    AboutPage
   ],
   imports: [
     BrowserModule,
@@ -55,7 +57,8 @@ export function createTranslateLoader(http: HttpClient) {
     PokedexPage,
     PokemonListPage,
     PokemonDetailPage,
-    LanguagePage
+    LanguagePage,
+    AboutPage
   ],
   providers: [
     StatusBar,

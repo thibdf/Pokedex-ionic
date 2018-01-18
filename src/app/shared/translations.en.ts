@@ -84,7 +84,7 @@ export const translations_en: Map<string, string> = new Map([
     'sandslash', 'sandslash'
   ],
   [
-    'nidoran-f', 'nidoran'
+    'nidoran-f', 'nidoran♀'
   ],
   [
     'nidorina', 'nidorina'
@@ -93,7 +93,7 @@ export const translations_en: Map<string, string> = new Map([
     'nidoqueen', 'nidoqueen'
   ],
   [
-    'nidoran-m', 'nidoran'
+    'nidoran-m', 'nidoran♂'
   ],
   [
     'nidorino', 'nidorino'

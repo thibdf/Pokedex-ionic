@@ -4,6 +4,7 @@
     "LIST": "Pokemon list",
     "MUSIC": "Theme song",
     "LANGUAGE": "Language",
+    "ABOUT": "App infos",
  
     "LANGUAGE_HEADER": "Select language",
     "LANGUAGE_SUBMIT": "Submit",
@@ -11,4 +12,5 @@
     "DESCRIPTION": "Description",
 
     "GOTOPOKEDEX": "Go to the Pokedex"
+
 }
