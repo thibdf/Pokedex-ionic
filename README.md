@@ -17,4 +17,7 @@ It started as a school project using Angular first, then Ionic. The version here
 # License
 
 [Pokemon Icons](https://www.flaticon.com/packs/pokemon-go) made by [Roundicons Freebies](https://www.flaticon.com/authors/roundicons-freebies) from [www.flaticon.com](https://www.flaticon.com/)
+
 [Flag Icons](https://www.flaticon.com/packs/international-flags) made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
+
+License MIT
