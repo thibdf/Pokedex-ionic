@@ -16,7 +16,7 @@
   <ion-list>
     <ion-item *ngFor="let pokemon of pokemons" (click)=navigateDetails(pokemon.id)>
       <ion-thumbnail item-start>
-        <img src="/assets/img/sprites/{{ pokemon.id }}.png">
+        <img src="./assets/img/sprites/{{ pokemon.id }}.png">
       </ion-thumbnail>
       <h2>{{ pokemon.id }}. {{ pokemon.name | pkmnTranslate | pkmnTitleCase }}</h2>
       <ion-icon item-end ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle"></ion-icon>

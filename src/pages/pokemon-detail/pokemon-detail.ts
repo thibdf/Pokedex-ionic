@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 import { Observable } from 'rxjs/Observable';
 import { forkJoin } from 'rxjs/observable/forkJoin';
 import { map, mergeMap } from 'rxjs/operators';
@@ -10,7 +10,6 @@ import { UtilService } from '../../app/core/util.service';
 import { LanguageService } from "../../app/core/language.service";
 
 
-@IonicPage()
 @Component({
   selector: 'page-pokemon-detail',
   templateUrl: 'pokemon-detail.html',

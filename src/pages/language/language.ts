@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 
 import { LanguageService } from "../../app/core/language.service";
 
 import { PokemonListPage } from "../pokemon-list/pokemon-list";
 
 
-@IonicPage()
 @Component({
   selector: 'page-language',
   templateUrl: 'language.html',

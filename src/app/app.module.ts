@@ -7,7 +7,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { HttpClientModule, HttpClient } from "@angular/common/http";
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from "./shared/shared.module";
 
@@ -22,13 +21,12 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpModule } from '@angular/http';
 
 export function createTranslateLoader(http: HttpClient) {
-  return new TranslateHttpLoader(http, '/assets/i18n/', '.json');
+  return new TranslateHttpLoader(http);
 }
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
     PokedexPage,
     PokemonListPage,
     PokemonDetailPage,
@@ -53,7 +51,6 @@ export function createTranslateLoader(http: HttpClient) {
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
     PokedexPage,
     PokemonListPage,
     PokemonDetailPage,

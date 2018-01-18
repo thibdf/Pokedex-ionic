@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 import { Observable } from "rxjs/Observable";
 import { map } from "rxjs/operators";
 
@@ -8,7 +8,6 @@ import { PokemonService } from "../../app/core/pokemon.service";
 import { PokemonDetailPage } from "../pokemon-detail/pokemon-detail";
 
 
-@IonicPage()
 @Component({
   selector: 'page-pokemon-list',
   templateUrl: 'pokemon-list.html',
