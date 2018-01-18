@@ -21,7 +21,7 @@ export class PokemonListPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PokemonListPage');
+    
     this.getAllPokemons().subscribe();
   }
   

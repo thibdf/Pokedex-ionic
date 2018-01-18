@@ -21,11 +21,11 @@ export class LanguagePage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LanguagePage');
+    
   }
 
   changeLanguage() {
-    console.log('language: ' + this.language);
+    
     this.languageService.changeLanguage(this.language);
     this.navCtrl.setRoot(PokemonListPage);
   }

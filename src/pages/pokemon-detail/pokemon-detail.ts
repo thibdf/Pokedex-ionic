@@ -33,7 +33,6 @@ export class PokemonDetailPage {
   
   ionViewDidLoad() {
     
-    console.log("id: " + this.id);
     if (!this.id) {
       this.id = 1;
     }
