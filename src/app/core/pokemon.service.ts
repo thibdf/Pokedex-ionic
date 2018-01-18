@@ -10,8 +10,7 @@ import { UtilService } from './util.service';
 export class PokemonService {
   private endpoint = 'pokemon';
 
-  constructor(private http: HttpClient,
-              private utilService: UtilService) {
+  constructor(private http: HttpClient, private utilService: UtilService) {
   }
 
   getAllPokemons(): Observable<any> {

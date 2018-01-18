@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 
-import { PokedexPage } from './pokedex';
+import { LanguagePage } from './language';
 
 
 @NgModule({
   declarations: [
-    PokedexPage,
+    LanguagePage,
   ],
   imports: [
-    IonicPageModule.forChild(PokedexPage),
-  ],
+    IonicPageModule.forChild(LanguagePage),
+  ]
 })
-export class PokedexPageModule {}
+export class LanguagePageModule {}

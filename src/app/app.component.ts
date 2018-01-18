@@ -2,26 +2,49 @@ import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { ViewChild } from "@angular/core";
+import { MenuController } from "ionic-angular";
 
+import { TranslateService } from '@ngx-translate/core';
+import { LanguageService } from "../app/core/language.service";
+
+import { PokedexPage } from "../pages/pokedex/pokedex";
 import { PokemonListPage } from "../pages/pokemon-list/pokemon-list";
+import { LanguagePage } from "../pages/language/language";
+
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = PokemonListPage;
+  @ViewChild('content') nav;
 
-  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
+  rootPage:any = PokedexPage;
+
+  pages: Array<{ title: string, component: any }>
+
+  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, public menuCtrl: MenuController, languageService: LanguageService) {
+ 
     platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
+      
       statusBar.styleDefault();
       splashScreen.hide();
-    });
-  }
-}
 
-// Backup global variable
-// export var language = {
-//   lg: 'en'
-// };
+      languageService.setupLanguage();
+    });
+
+    // List of pages in the menu
+    this.pages = [
+      { title: 'HOME', component: PokedexPage },
+      { title: 'LIST', component: PokemonListPage },
+      { title: 'LANGUAGE', component: LanguagePage }
+    ];
+    
+  }
+
+  openPage(page) {
+    
+    this.nav.setRoot(page.component);
+  }
+
+}

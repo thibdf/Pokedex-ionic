@@ -20,10 +20,13 @@ export class TranslatePipe implements PipeTransform {
 
     switch(this.languageService.language) {
       case 'de':
+        console.log("language: de");
         return translations_de.get(value) || value;
       case 'fr':
+        console.log("language: fr");
         return translations_fr.get(value) || value;
       default:
+        console.log("language: en");
         return translations_en.get(value) || value;
 
     }

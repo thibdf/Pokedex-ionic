@@ -1,0 +1,48 @@
+<!-- Change language page -->
+
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle icon-only>
+      <ion-icon name='menu'></ion-icon>
+    </button>
+    <ion-title>{{ 'LANGUAGE_HEADER' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+  <form (ngSubmit)="changeLanguage()">
+    <ion-list radio-group [(ngModel)]="language" name="language">
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="/assets/icon/flags/en.png">
+        </ion-thumbnail>
+        <ion-label>English</ion-label>
+        <ion-radio value="en"></ion-radio>
+      </ion-item>
+      
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="/assets/icon/flags/fr.png">
+        </ion-thumbnail>
+        <ion-label>Français</ion-label>
+        <ion-radio value="fr"></ion-radio>
+      </ion-item>
+      
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="/assets/icon/flags/de.png">
+        </ion-thumbnail>
+        <ion-label>Deutsch</ion-label>
+        <ion-radio value="de"></ion-radio>
+      </ion-item>
+    </ion-list>
+
+    <div class="wrapper">
+      <button ion-button block type="submit">{{ 'LANGUAGE_SUBMIT' | translate }}</button>
+    </div>
+  </form>
+
+</ion-content>

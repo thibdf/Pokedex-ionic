@@ -1,17 +1,12 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Observable } from "rxjs/Observable";
 import { map } from "rxjs/operators";
 
-/**
- * Generated class for the PokemonListPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 import { PokemonService } from "../../app/core/pokemon.service";
+
 import { PokemonDetailPage } from "../pokemon-detail/pokemon-detail";
+
 
 @IonicPage()
 @Component({

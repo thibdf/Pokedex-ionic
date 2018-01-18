@@ -1,20 +1,23 @@
-<!--
-  Generated template for the PokedexPage page.
+<!-- Home Page -->
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
-
+  
   <ion-navbar>
-    <ion-title>pokedex</ion-title>
+    <button ion-button menuToggle icon-only>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Pokedex</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-  <!-- <app-pokemon-list (idUpdated)="handleIdUpdated($event)"></app-pokemon-list> -->
-  
-  <!-- <app-pokemon-detail [id]="id"></app-pokemon-detail> -->
+  <img src="/assets/img/slogan.png" alt="Gotta catch em all" class="img-home">
+  <img src="/assets/img/pokedex.png" alt="Pokedex" class="img-home">
+  <div class="wrapper">
+    <form (ngSubmit)="goToPokedex()">
+      <button ion-button type="submit">{{ 'GOTOPOKEDEX' | translate }}</button>
+    </form>
+  </div>
 </ion-content>

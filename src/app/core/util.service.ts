@@ -11,12 +11,6 @@ export class UtilService {
     return Number(splitUrlArray[splitUrlArray.length - 2]);
   }
 
-  getFrenchEntry(localizedEntries: any[]): any {
-    return localizedEntries.find(
-      (flavorTextEntry: any) => flavorTextEntry.language.name === 'fr'
-    );
-  }
-
   getLocalizedEntry(localizedEntries: any[], language: any): any {
     return localizedEntries.find(
       (flavorTextEntry: any) => flavorTextEntry.language.name === language

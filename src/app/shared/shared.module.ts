@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { TranslatePipe } from './translate.pipe';
 import { TitleCasePipe } from './title-case.pipe';
 

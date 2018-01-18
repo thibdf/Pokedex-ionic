@@ -1,0 +1,14 @@
+{
+    "MENU": "Menu",
+    "HOME": "Accueil",
+    "LIST": "Liste de Pokemons",
+    "MUSIC": "Générique",
+    "LANGUAGE": "Langue",
+    
+    "LANGUAGE_HEADER": "Sélectionner une langue",
+    "LANGUAGE_SUBMIT": "Valider",
+    
+    "DESCRIPTION": "Description",
+    
+    "GOTOPOKEDEX": "Accéder au Pokédex"
+}

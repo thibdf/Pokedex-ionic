@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the PokedexPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { PokemonListPage } from "../pokemon-list/pokemon-list";
 
 @IonicPage()
 @Component({
@@ -14,16 +9,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'pokedex.html',
 })
 export class PokedexPage {
-  private id: number;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PokedexPage');
+
   }
 
-  handleIdUpdated(id: number) {
-    this.id = id || 1;
+  goToPokedex() {
+    this.navCtrl.setRoot(PokemonListPage);
   }
+
 }

@@ -1,0 +1,14 @@
+{
+    "MENU": "Menu",
+    "HOME": "Home",
+    "LIST": "Pokemon list",
+    "MUSIC": "Theme song",
+    "LANGUAGE": "Language",
+ 
+    "LANGUAGE_HEADER": "Select language",
+    "LANGUAGE_SUBMIT": "Submit",
+ 
+    "DESCRIPTION": "Description",
+
+    "GOTOPOKEDEX": "Go to the Pokedex"
+}
