@@ -20,9 +20,9 @@ It started as a school project using Angular first, then Ionic. The version here
 
 ```
 1. $ ionic cordova build android --prod --release
-2. $ keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
-3. $ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.jks app-release-unsigned.apk my-alias
-4. $ zipalign -v 4 app-release-unsigned.apk Pokedex.apk
+2. $ keytool -genkey -v -keystore my-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
+3. $ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-key.jks app-unsigned.apk my-alias
+4. $ zipalign -v 4 app-unsigned.apk Pokedex.apk
 5. $ apksigner verify Pokedex.apk
 ```
 
