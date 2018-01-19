@@ -1,20 +1,30 @@
-# Description
+# Pokedex
 
 It started as a school project using Angular first, then Ionic. The version here is the latter.
 
-# Dependencies
+## Dependencies
 
 - [NodeJS](https://nodejs.org/en/)
 - [Ionic Framework](https://ionicframework.com/)
 
-# Installation
+## Installation
 
 1. $ npm install
 2. $ npm install -g cordova ionic (If Ionic isn't installed)
 3. $ ionic serve
 4. Gotta catch 'em all!
 
-# License
+## Android APK
+
+1. $ ionic cordova build android --prod --release
+2. $ keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
+3. $ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.jks app-release-unsigned.apk my-alias
+4. $ zipalign -v 4 app-release-unsigned.apk Pokedex.apk
+5. $ apksigner verify Pokedex.apk
+
+See the [Ionic doc](https://ionicframework.com/docs/intro/deploying/) for more informations about deploying the app as an APK.
+
+## License
 
 [Pokemon Icons](https://www.flaticon.com/packs/pokemon-go) made by [Roundicons Freebies](https://www.flaticon.com/authors/roundicons-freebies) from [www.flaticon.com](https://www.flaticon.com/)
 
