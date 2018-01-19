@@ -4,6 +4,7 @@ It started as a school project using Angular first, then Ionic. The version here
 
 ## Dependencies
 
+- [Pokéapi](https://pokeapi.co/)
 - [NodeJS](https://nodejs.org/en/)
 - [Ionic Framework](https://ionicframework.com/)
 
