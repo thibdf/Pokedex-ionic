@@ -21,10 +21,11 @@ It started as a school project using Angular first, then Ionic. The version here
 
 ```
 1. $ ionic cordova build android --prod --release
-2. $ keytool -genkey -v -keystore my-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
-3. $ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-key.jks app-unsigned.apk my-alias
-4. $ zipalign -v 4 app-unsigned.apk Pokedex.apk
-5. $ apksigner verify Pokedex.apk
+2. $ cd path/to/app-release-unsigned.apk (Something like: platforms/android/app/build/outputs/apk/release)
+3. $ keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
+4. $ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.jks app-release-unsigned.apk my-alias
+5. $ zipalign -v 4 app-release-unsigned.apk Pokedex.apk
+6. $ apksigner verify Pokedex.apk
 ```
 
 See the [Ionic doc](https://ionicframework.com/docs/intro/deploying/) for more informations about deploying the app as an APK.
@@ -35,4 +36,4 @@ See the [Ionic doc](https://ionicframework.com/docs/intro/deploying/) for more i
 
 [Flag Icons](https://www.flaticon.com/packs/international-flags) made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
 
-License MIT
+License [MIT](https://github.com/ThibDuff/Pokedex/blob/master/LICENSE.md)

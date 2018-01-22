@@ -1,8 +1,8 @@
 {
-  "name": "pokedex-ionic",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "pokedex",
+  "version": "0.1.3",
+  "author": "Thibaut Dufour",
+  "homepage": "https://github.com/ThibDuff/Pokedex",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
