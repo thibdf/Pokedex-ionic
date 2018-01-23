@@ -2,6 +2,10 @@
 
 It started as a school project using Angular first, then Ionic. The version here is the latter.
 
+## Disclaimer
+
+© 2018 Pokémon. © 1995–2018 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character names are trademarks of Nintendo. 
+
 ## Dependencies
 
 - [Pokéapi](https://pokeapi.co/)
@@ -18,6 +22,8 @@ It started as a school project using Angular first, then Ionic. The version here
 ```
 
 ## Android APK
+
+Requires [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Android SDK](https://developer.android.com/studio/index.html)
 
 ```
 1. $ ionic cordova build android --prod --release
